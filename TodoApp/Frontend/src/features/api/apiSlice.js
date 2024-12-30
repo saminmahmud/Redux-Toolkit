@@ -6,7 +6,7 @@ export const apiSlice = createApi({
         baseUrl: "http://127.0.0.1:8000",
     }),
 
-    tagTypes: ["posts", "post"],
+    tagTypes: ["todos", "todo"],
     
     endpoints: (builder) => ({
         getTodos: builder.query({
